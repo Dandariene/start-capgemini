@@ -13,17 +13,17 @@ public class Main {
 
         while (desejaContinuar == 'S' || desejaContinuar == 's') {
 
-            System.out.println("Digite um número: ");
+            System.out.println("Digite um nÃºmero: ");
 
             int numero = leitorScaner.nextInt();
 
             if (numero == 0) {
-                System.out.println("O número é igual a zero");
+                System.out.println("O nÃºmero Ã© igual a zero");
             } else {
                 if (numero > 0) {
-                    System.out.println("O número é maior que zero");
+                    System.out.println("O nÃºmero Ã© maior que zero");
                 } else {
-                    System.out.println("O número é menor que zero");
+                    System.out.println("O nÃºmero Ã© menor que zero");
                 }
             }
             System.out.println("Deseja continuar? S/N");

@@ -7,13 +7,13 @@ public class Main {
 
         Scanner leitor = new Scanner(System.in);
 
-        Pessoa obejtoPessoa = new Pessoa();
+        Pessoa objetoPessoa = new Pessoa(70.0f, 1.70f);
 
         System.out.println("Digite o peso: ");
-        obejtoPessoa.peso = leitor.nextFloat();
+        objetoPessoa.setPeso(leitor.nextFloat());
         System.out.println("Digite a altura: ");
-        obejtoPessoa.altura = leitor.nextFloat();
+        objetoPessoa.setAltura(leitor.nextFloat());
 
-        System.out.println("IMC = " + obejtoPessoa.calcularIMC());
+        System.out.println("IMC = " + objetoPessoa.calcularIMC());
     }
 }

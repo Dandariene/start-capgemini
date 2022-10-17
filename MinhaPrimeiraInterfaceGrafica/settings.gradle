@@ -1,0 +1,4 @@
+rootProject.name = 'MinhaPrimeiraInterfaceGrafica'
+include 'MinhaInterface'
+include 'MinhaInterface'
+

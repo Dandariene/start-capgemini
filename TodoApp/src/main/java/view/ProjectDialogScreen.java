@@ -15,6 +15,7 @@ import model.Project;
  */
 public class ProjectDialogScreen extends javax.swing.JDialog {
 
+    
     ProjectController controller;
   
     public ProjectDialogScreen(java.awt.Frame parent, boolean modal) {
